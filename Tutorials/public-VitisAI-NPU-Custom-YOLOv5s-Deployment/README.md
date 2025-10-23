@@ -16,7 +16,7 @@ MIT License
   </tr>
 </table>
 
-# Deploying a Custom YOLOv5s on Vitis-AI NPU
+# Deploying a Custom YOLOv5s on Vitis AI NPU
 
 
 #### Current Status
