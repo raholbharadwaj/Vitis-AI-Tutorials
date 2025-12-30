@@ -19,7 +19,16 @@
   </tr>
 </thead>
 <tbody>
-  <tr>
+ <tr>
+  <td>
+   <a href="https://github.com/Xilinx/Vitis-AI-Tutorials/tree/5.1/Tutorials/vitis-ai-5.1-multi-tenancy-tutorial-vek280-main/vitis-ai-5.1-multi-tenancy-tutorial-vek280-main">Running Multiple Models (ResNet50+ResNet18) with Multi-Tenancy
+</a>
+ </td>
+ <td align="center">5.1</td>
+ <td>This tutorial shows you how to deploy a Convolutional Neural Network (CNN) model for Image Classification with the Vitis AI 5.1 development flow, from the host PC to the Versal VEK280, which contains the NPU (Neural Processing Unit).This tutorial shows how to execute ResNet50 and ResNet18 temporally and spatially on the VEK280 to demonstrate the benefits of both methods and how the performance compares to single model execution.
+</td>
+ </tr> 
+ <tr>
   <td>
    <a href="https://github.com/Xilinx/Vitis-AI-Tutorials/tree/5.1/Tutorials/public_VitisAI-NPU-Custom-ResNet18-Deployment/">Deploying a Custom ResNet18 on Vitis AI NPU</a>
  </td>
@@ -41,6 +50,7 @@
 <p class="sphinxhide" align="center"><sub>Copyright © 2020–2025 Advanced Micro Devices, Inc</sub></p>
 
 <p class="sphinxhide" align="center"><sup><a href="https://www.amd.com/en/corporate/copyright">Terms and Conditions</a></sup></p>
+
 
 
 
