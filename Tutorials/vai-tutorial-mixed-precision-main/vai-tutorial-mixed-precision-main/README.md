@@ -9,7 +9,7 @@ MIT License
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Xilinx/Image-Collateral/main/logo-white-text.png">
     <img alt="AMD logo" src="https://raw.githubusercontent.com/Xilinx/Image-Collateral/main/xilinx-logo.png" width="35%">
   </picture>
-  <h1>Vitis AI Tutorial 1: YOLOX Mixed Precision</h1>
+  <h1>YOLOX Mixed Precision</h1>
 </p>
 
 
@@ -266,7 +266,7 @@ ls
    - **Ethernet cable:** For host-target communication (required for `scp` and remote operations).  
    - **USB cable:** For serial console connection.
 
-<img src="https://gitenterprise.xilinx.com/divyamy/vai-tutorial-skeleton/blob/main/images/header/VEK280%20Evaluation%20Board.png" width="75%">
+![](/images/header/VEK280_Evaluation_Board.png>
 
 
 #### 7.2 Flash the SD Card
@@ -424,14 +424,14 @@ Re-run the inference command to see the performance of snapshot generated with M
 ```bash
 vart_ml_runner.py --snapshot <Mixed_Precision_snapshot_name>/ --in_zero_copy --out_zero_copy
 ```
-<img src="https://gitenterprise.xilinx.com/divyamy/vai-tutorial-mixed-precision/blob/main/images/header/Mixed_Performance.png" width="75%">
+![](/images/header/Mixed_Performance.png)
 
 Re-run the inference command to see the performance of snapshot generated with INT8:
 
 ```bash
 vart_ml_runner.py --snapshot <INT8_snapshot_name> --in_zero_copy
 ```
-<img src="https://gitenterprise.xilinx.com/divyamy/vai-tutorial-mixed-precision/blob/main/images/header/INT8_Performance.png" width="75%">
+![](/images/header/INT8_Performance.png)
 
 ## Performance Comparison: INT8 vs Mixed Precision
 
