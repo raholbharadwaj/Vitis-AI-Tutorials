@@ -16,6 +16,58 @@
   </tr>
 </thead>
 <tbody>
+<tr>
+      <th colspan="3" align="left">
+        <b>Versal AI Edge Series Gen2</b>
+      </th>
+  </tr>
+<tr>
+  <td>
+   <a href="https://github.com/Xilinx/Vitis-AI-Tutorials/tree/6.1/Tutorials/resnet18_bf16-6.1/resnet18_bf16-6.1/README.md">Getting Started with Vitis AI: ResNet-18 End-to-End Flow
+</a>
+ </td>
+ <td align="center">6.1</td>
+ <td>This tutorial shows you how to compile an ONNX model using the Vitis AI toolchain and deploy it on a Versal AI Edge Series Gen2 device.
+</td>
+ </tr>
+ <tr>
+  <td>
+   <a href="https://github.com/Xilinx/Vitis-AI-Tutorials/tree/6.1/Tutorials/resnet50_quark-main/resnet50_quark-main/README.md">ResNet50 INT8 Quantization with AMD Quark and Inference
+</a>
+ </td>
+ <td align="center">6.1</td>
+ <td>This tutorial demonstrates how to perform INT8 quantization with AMD Quark and how to deploy the resulting INT8 model within the Vitis AI workflow. It also includes scripts for evaluating model accuracy on both CPU and NPU using the ImageNet dataset.
+</td>
+ </tr>
+  <tr>
+  <td>
+   <a href="https://github.com/Xilinx/Vitis-AI-Tutorials/tree/6.1/Tutorials/resnet50Cpp-main/resnet50Cpp-main/README.md">Build a C++ Inference Application for ResNet-50</a>
+ </td>
+ <td align="center">6.1</td>
+ <td> This tutorial outlines the essential steps for deploying the ResNet50 model on AMD VEK385 RevB hardware using ONNX RT C++ Application.
+</td>
+ </tr>
+   <tr>
+  <td>
+   <a href="https://github.com/Xilinx/Vitis-AI-Tutorials/tree/6.1/Tutorials/Vitis_AI_Segmentation-segformer_b0_v6.1/Vitis_AI_Segmentation-segformer_b0_v6.1/README.md">SegFormer-B0 Semantic Segmentation</a>
+ </td>
+ <td align="center">6.1</td>
+ <td>This tutorial shows you how to deploy the SegFormer-B0 model using Vitis AI on the Versal Edge v2 platform. 
+</td>
+ </tr>
+  <tr>
+  <td>
+   <a href="https://github.com/Xilinx/Vitis-AI-Tutorials/tree/6.1/Tutorials/yolov8m-main/yolov8m-main/README.md">YOLOv8m Object Detection: Quantization to Deployment</a>
+ </td>
+ <td align="center">6.1</td>
+ <td>This tutorial outlines the essential steps for deploying the YOLOv8m model on AMD VEK385 hardware using Vitis AI 6.1, while leveraging the mixed-precision capabilities of the Vitis AI compiler.
+</td>
+ </tr>
+ <tr>
+      <th colspan="3" align="left">
+        <b>Versal AI Edge Series Gen1</b>
+      </th>
+  </tr>
  <tr>
   <td>
    <a href="https://github.com/Xilinx/Vitis-AI-Tutorials/tree/5.1/Tutorials/vai-tutorial-mixed-precision-main/vai-tutorial-mixed-precision-main">YOLOX Mixed Precision
