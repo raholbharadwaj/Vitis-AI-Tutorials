@@ -1,9 +1,16 @@
-<table class="sphinxhide" width="100%">
- <tr width="100%">
-    <td align="center"><img src="https://raw.githubusercontent.com/Xilinx/Image-Collateral/main/xilinx-logo.png" width="30%"/><h1> Build a C++ Inference Application for ResNet-50</h1>
+<table class="sphinxhide" style="width:100%;">
+  <tr>
+    <td align="center">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Xilinx/Image-Collateral/main/logo-white-text.png">
+        <img alt="AMD logo" src="https://raw.githubusercontent.com/Xilinx/Image-Collateral/main/xilinx-logo.png" width="30%">
+      </picture>
+      <h1>Vitis AI Tutorials</h1>
     </td>
- </tr>
+  </tr>
 </table>
+
+# Build a C++ Inference Application for ResNet-50
 
 This tutorial outlines the essential steps for deploying the Resnet50 model on AMD VEK385 RevB hardware
 using ONNX RT C++ Application.
@@ -368,9 +375,15 @@ This tutorial demonstrated the complete workflow for deploying resnet50 on AMD V
 3. **C++ Application for Inference**: Used a C++ Application on AMD VEK385 hardware to perform inference on an example input image.
 
 
-## License
-
+### License  
 The MIT License (MIT)
 
-Copyright (c) 2025 Advanced Micro Devices, Inc. All rights reserved.
+Copyright © 2026 Advanced Micro Devices, Inc. All rights reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 
