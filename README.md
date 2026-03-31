@@ -17,40 +17,55 @@
     <th width="15%" align="center"><h3><b>Highest Version</b></hr></th>
     <th width="50%" align="center"><h3><b>Description</b></hr></th>
   </tr>
+  
+ <tr>
+      <th colspan="3" align="left">
+        <b>Versal AI Edge Series Gen2</b>
+      </th>
+  </tr>
+
 </thead>
 <tbody>
  <tr>
   <td>
-   <a href="https://github.com/Xilinx/Vitis-AI-Tutorials/tree/5.1/Tutorials/vai-tutorial-mixed-precision-main/vai-tutorial-mixed-precision-main">YOLOX Mixed Precision
+   <a href="https://github.com/Xilinx/Vitis-AI-Tutorials/tree/6.1/Tutorials/resnet18_bf16-6.1/resnet18_bf16-6.1/README.md">Getting Started with Vitis AI: ResNet-18 End-to-End Flow
 </a>
  </td>
- <td align="center">5.1</td>
- <td>This tutorial shows you how to apply mixed precision quantization to a YOLOX model. It guides you through generating and comparing results from an INT8-only snapshot used as a baseline and a mixed precision snapshot that combines INT8 and BF16. Finally, it helps you analyze the accuracy and performance differences between the two runs to understand the trade-offs involved in precision selection.
+ <td align="center">6.1</td>
+ <td>This tutorial shows you how to compile an ONNX model using the Vitis AI toolchain and deploy it on a Versal AI Edge Series Gen2 device.
 </td>
  </tr>
  <tr>
   <td>
-   <a href="https://github.com/Xilinx/Vitis-AI-Tutorials/tree/5.1/Tutorials/vitis-ai-5.1-multi-tenancy-tutorial-vek280-main/vitis-ai-5.1-multi-tenancy-tutorial-vek280-main">Running Multiple Models (ResNet50+ResNet18) with Multi-Tenancy
+   <a href="https://github.com/Xilinx/Vitis-AI-Tutorials/tree/6.1/Tutorials/resnet50_quark-main/resnet50_quark-main/README.md">ResNet50 INT8 Quantization with AMD Quark and Inference
 </a>
  </td>
- <td align="center">5.1</td>
- <td>Multi-tenancy is a new feature in Vitis AI which enables the execution of multiple models. This tutorial shows how to execute ResNet50 and ResNet18 temporally and spatially on the VEK280 to demonstrate the benefits of both methods and how the performance compares to single model execution.
+ <td align="center">6.1</td>
+ <td>This tutorial demonstrates how to perform INT8 quantization with AMD Quark and how to deploy the resulting INT8 model within the Vitis AI workflow. It also includes scripts for evaluating model accuracy on both CPU and NPU using the ImageNet dataset.
 </td>
  </tr>
   <tr>
   <td>
-   <a href="https://github.com/Xilinx/Vitis-AI-Tutorials/tree/5.1/Tutorials/public_VitisAI-NPU-Custom-ResNet18-Deployment/">Deploying a Custom ResNet18 on Vitis AI NPU</a>
+   <a href="https://github.com/Xilinx/Vitis-AI-Tutorials/tree/6.1/Tutorials/resnet50Cpp-main/resnet50Cpp-main/README.md">Build a C++ Inference Application for ResNet-50</a>
  </td>
- <td align="center">5.1</td>
- <td>This tutorial shows you how to deploy a Convolutional Neural Network (CNN) model for Image Classification with the Vitis AI 5.1 development flow, from the host PC to the Versal VEK280, which contains the NPU (Neural Processing Unit).
+ <td align="center">6.1</td>
+ <td> This tutorial outlines the essential steps for deploying the ResNet50 model on AMD VEK385 RevB hardware using ONNX RT C++ Application.
 </td>
  </tr>
    <tr>
   <td>
-   <a href="https://github.com/Xilinx/Vitis-AI-Tutorials/tree/5.1/Tutorials/public-VitisAI-NPU-Custom-YOLOv5s-Deployment">Deploying a Custom YOLOv5s on Vitis AI NPU</a>
+   <a href="https://github.com/Xilinx/Vitis-AI-Tutorials/tree/6.1/Tutorials/Vitis_AI_Segmentation-segformer_b0_v6.1/Vitis_AI_Segmentation-segformer_b0_v6.1/README.md">SegFormer-B0 Semantic Segmentation</a>
  </td>
- <td align="center">5.1</td>
- <td>This tutorial shows you how to deploy a Convolutional Neural Network (NN) model for Object Detection with the Vitis AI 5.1 development flow, from the host PC to the Versal VEK280 which contains the NPU (Neural Processing Unit).
+ <td align="center">6.1</td>
+ <td>This tutorial shows you how to deploy the SegFormer-B0 model using Vitis AI on the Versal Edge v2 platform. 
+</td>
+ </tr>
+  <tr>
+  <td>
+   <a href="https://github.com/Xilinx/Vitis-AI-Tutorials/tree/6.1/Tutorials/yolov8m-main/yolov8m-main/README.md">YOLOv8m Object Detection: Quantization to Deployment</a>
+ </td>
+ <td align="center">6.1</td>
+ <td>This tutorial outlines the essential steps for deploying the YOLOv8m model on AMD VEK385 hardware using Vitis AI 6.1, while leveraging the mixed-precision capabilities of the Vitis AI compiler.
 </td>
  </tr>
 </tbody>

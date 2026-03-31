@@ -12,8 +12,7 @@
 
 # Build a C++ Inference Application for ResNet-50
 
-This tutorial outlines the essential steps for deploying the Resnet50 model on AMD VEK385 RevB hardware
-using ONNX RT C++ Application.
+This tutorial outlines the essential steps for deploying the Resnet50 model on AMD VEK385 RevB hardware using ONNX RT C++ Application.
 
 The process begins with getting the resnet50 model from HuggingFace ONNX Model Zoo. The model is then compiled for the VAIML target using Vitis AI, which prepares it for execution. Finally, a C++ application is used to run inference on the VEK385 hardware, demonstrating the complete workflow from model preparation to deployment. This tutorial provides a comprehensive guide for developers looking to leverage AMD's Vitis AI platform for efficient model deployment on AMD edge devices.
 
