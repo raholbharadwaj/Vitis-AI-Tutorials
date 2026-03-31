@@ -1,0 +1,40 @@
+name: ResNet50 Quark Test
+
+# 手动触发
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: Run ResNet50 Quark Test
+    # 在本地自托管运行器上运行
+    runs-on: [self-hosted, xcobrucey50x]
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Clone resnet50_quark repository
+        run: |
+          # 清理可能存在的旧目录
+          rm -rf resnet50_quark
+          git clone https://gitenterprise.xilinx.com/brucey/resnet50_quark
+
+      - name: Download ONNX model
+        run: |
+          cd resnet50_quark
+          mkdir -p models
+          wget -P models https://huggingface.co/onnxmodelzoo/resnet50-v1-12/resolve/main/resnet50-v1-12.onnx
+
+      - name: Verify download
+        run: |
+          cd resnet50_quark
+          ls -lh models/
+          echo "Model download completed successfully"
+
+      - name: Cleanup
+        if: always()
+        run: |
+          # 可选：测试完成后清理下载的文件
+          # rm -rf resnet50_quark
+          echo "Test completed"
